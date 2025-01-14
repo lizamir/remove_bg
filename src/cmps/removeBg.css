@@ -1,0 +1,41 @@
+.remove_bg_main {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #2c3e50;
+  border-radius: 15px;
+}
+
+.header_cont {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.close {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.title {
+  color: white;
+  direction: rtl;
+  font-family: 'Aduma', sans-serif;
+  font-size: 3rem;
+  margin: 15px 25px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  width: 400px;
+  float: right;
+}
+.add_img {
+  background-color: #475366;
+  border-radius: 50px;
+  border: 0;
+  color: white;
+  padding: 8px;
+  width: 130px;
+  background-image: url(../assets/images/Upload.png);
+  background-repeat: no-repeat;
+  background-position: 9px 9px;
+  margin: 15px 25px;
+}
