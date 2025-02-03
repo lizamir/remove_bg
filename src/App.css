@@ -2,3 +2,17 @@
   font-family: Aduma;
   src: url(./assets/fonts/AdumaRegular.ttf);
 }
+
+@font-face {
+  font-family: Assistant;
+  src: url(./assets/fonts/Assistant-Regular.ttf);
+}
+
+@font-face {
+  font-family: AssistantBold;
+  src: url(./assets/fonts/Assistant-SemiBold.ttf);
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+}

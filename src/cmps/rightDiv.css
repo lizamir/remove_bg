@@ -1,0 +1,12 @@
+.right_div {
+  width: 29%;
+  height: 626px;
+  border-radius: 10px;
+  background-color: #2f3a4b;
+}
+
+.right_div_inner {
+  height: 80%;
+  margin-top: 64px;
+  background-color: #161b21;
+}

@@ -1,0 +1,106 @@
+.left_div {
+  width: 68%;
+  height: 626px;
+  border-radius: 10px;
+  background-color: #2f3a4b;
+  position: relative;
+}
+
+.left_div_inner {
+  height: 80%;
+  margin-top: 64px;
+  background-color: #161b21;
+}
+
+.tabs_cont {
+  position: absolute;
+  color: white;
+  width: 100%;
+  display: flex;
+  direction: rtl;
+  top: 15px;
+  bottom: 15px;
+  font-size: 24px;
+  font-family: 'AssistantBold', sans-serif;
+}
+.no_bg,
+.original {
+  width: 144px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.tab_selected {
+  border-bottom: 3px solid #da35ff;
+  padding-bottom: 13px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.regulation {
+  background-color: #475366;
+  border-radius: 50px;
+  border: 0;
+  color: white;
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+  position: relative;
+  top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-inline: 8px;
+  cursor: pointer;
+}
+
+.legacy {
+  color: white;
+  font-size: 15px;
+  margin-inline: 19px;
+  margin-top: 18px;
+}
+.popup_leg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  background: #2c2f36;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1001;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  direction: rtl;
+}
+.layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popup_leg .close_btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}

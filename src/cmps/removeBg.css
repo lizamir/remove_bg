@@ -1,41 +1,75 @@
 .remove_bg_main {
   width: 1000px;
-  height: 800px;
+  height: 812px;
   margin: 0 auto;
   margin-top: 50px;
-  background-color: #2c3e50;
+  background-color: #222a34;
   border-radius: 15px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
 }
 
-.header_cont {
-  padding: 20px;
+.header_container {
+  padding: 10px;
+  height: 80px;
+  overflow: hidden;
   border-radius: 10px;
 }
 
 .close {
-  margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 3px;
+  width: 10px;
 }
 .title {
   color: white;
-  direction: rtl;
   font-family: 'Aduma', sans-serif;
   font-size: 3rem;
-  margin: 15px 25px;
-  line-height: 1.2;
-  letter-spacing: 2px;
-  width: 400px;
+  letter-spacing: 3px;
+  width: 414px;
   float: right;
+  position: relative;
+  bottom: 35px;
 }
 .add_img {
   background-color: #475366;
   border-radius: 50px;
   border: 0;
   color: white;
-  padding: 8px;
-  width: 130px;
-  background-image: url(../assets/images/Upload.png);
-  background-repeat: no-repeat;
-  background-position: 9px 9px;
-  margin: 15px 25px;
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+  position: relative;
+  top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ממרכז את התוכן */
+  gap: 8px; /* רווח בין האייקון לטקסט */
+  cursor: pointer;
+}
+
+.header_text {
+  color: #bfb6aa;
+  direction: rtl;
+  width: 168px;
+  position: absolute;
+  top: 66px;
+  left: 193px;
+}
+
+.middle_cont {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.footer_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 13px 10px 0 15px;
+}
+.banner {
+  width: 788px;
 }
